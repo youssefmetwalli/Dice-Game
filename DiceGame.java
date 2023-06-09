@@ -15,8 +15,8 @@ public class DiceGame {
         int dice1 = random.nextInt(6) + 1;
         int dice2 = random.nextInt(6) + 1;
 
-        System.out.println("Dice 1: " + dice1);
-        System.out.println("Dice 2: " + dice2);
+        System.out.println("Die 1: " + dice1);
+        System.out.println("Die 2: " + dice2);
         int totalValue = dice1 + dice2;
         System.out.println("Total value: " + totalValue);
 
